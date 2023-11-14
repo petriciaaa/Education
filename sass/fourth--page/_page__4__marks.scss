@@ -1,0 +1,90 @@
+//Main card system
+.mark{
+    width: 328px;
+    height: 317.01px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    
+    padding: 25px 15px;
+
+    box-shadow: 0px 4px 15px rgba(0, 0,0, 0.35);
+}
+.mark + *{
+    margin-left: 36px;
+}
+
+
+//Description
+.mark__description{
+    width: 298px;
+    height: 217.01px;
+
+    
+
+}
+
+
+
+.mark__stars{
+    width: 130.07px;
+    height: 22.01px;
+
+    display: flex;
+    justify-content: space-between;
+
+    margin: 30px 83.97px 15px 83.97px ;
+
+}
+.star__img{
+    width:   22.01px;
+    height: 22.01px;
+}
+
+.mark__description__text{
+    width: 159px;
+    height: 120px;
+
+    margin: 0px 69.5px 15px 69.5px ;
+
+}
+
+
+//Author
+.mark__author{
+    width: 158px;
+    height: 50px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.mark__author__description{
+    width: 93px;
+    height: 40px;
+
+    margin: 5px 0px;
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+.page__4__name__author__name{
+    font-size: 14px;
+    font-weight: 00;
+    font-family: 'Montserrat', sans-serif;
+
+    color: #96BB7C;
+
+
+}
+.page__4__mark__author__description{
+    font-size: 12px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+
+    color: #252B42;
+    
+}

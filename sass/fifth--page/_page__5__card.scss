@@ -1,0 +1,62 @@
+// Card system main
+
+.page__5__card + * {
+    margin-left: 30px ;
+
+}
+
+.page__5__card{
+    width: 238px;
+    height: 375px;
+
+    border-radius: 20px ;
+
+    box-shadow: 0px 4px 15px rgba(0, 0,0, 0.35);
+
+    background-color: #ffff ;
+}
+
+//Specials paddings & margins
+.page__5__paddings__10{
+    padding: 10px   83.5px 10px 83.5px;
+
+    &__margin{
+        margin-top: 10px;
+
+    }
+
+    &__name{
+        padding: 0px 50px 0px 50px;
+
+    }
+}
+
+
+//Card style
+
+.card__photo{
+    width: inherit;
+    height: 231px;
+
+    border-radius: 20px 20px 0px 0px;
+}
+
+.card__info{
+    width: inherit;
+    height: 144px;
+
+    border-radius: 0px 0px 20px 20px;
+
+    padding: 30px 0px;
+}
+
+.card__socials{
+    width: 112px;
+    height: 24px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin: 0px 60px 0px 60px;
+}

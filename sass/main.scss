@@ -1,0 +1,57 @@
+/* Base- *,body,h,p*/
+@import './base/base';
+
+// First Page
+
+
+
+
+// School recover (all elements on a first page)
+@import './first--page/school__recover';
+
+
+
+//Header
+//Header left
+@import './first--page/header__left';
+
+//Header right
+@import './first--page/header__right';
+
+
+
+//Content
+@import './first--page/content/content';
+
+//Statistic
+@import './first--page/content/statistic';
+
+
+
+
+//Second Page
+
+@import './second--page/clients';
+@import './second--page/clients__left';
+@import './second--page/clients__right';
+
+
+
+//Third Page
+@import './third--page/third__page__main';
+@import './third--page//card__style';
+
+
+//Fourth Page
+@import './fourth--page/fourth__page__main';
+@import './fourth--page/page__4__info';
+@import './fourth--page/page__4__marks';    
+
+//Fifth Page
+@import './fifth--page/fifth__page__main';
+@import './fifth--page/page__5__card';
+
+//Sixth Page
+@import './sixth--page/sixth__page__main';
+@import './sixth--page/page__6__info';
+@import './sixth--page/page__6__email';

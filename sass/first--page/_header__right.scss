@@ -1,0 +1,32 @@
+.header__right{
+    width: 50%;
+    height: inherit;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.button{
+    padding: 10px 30px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:bold ;
+    border-radius: 4px  ;
+    
+    color: #96BB7C;
+    background-color: #FAFAFA;
+    border: 1px solid #96BB7C;
+    
+
+
+    &__primary{
+        background-color: #96BB7C;
+        color: #FAFAFA;
+        border: 1px solid #FAFAFA;
+
+    }
+
+}

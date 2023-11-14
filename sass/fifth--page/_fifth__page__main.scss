@@ -1,0 +1,39 @@
+.page__5__main{
+    width: 100%;
+    height: 849px;
+
+    position: relative;
+}
+
+.page__5__main__wrapper{
+    height: 849px;
+    width: 1050px;
+
+//    background-color: beige;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    margin: 0;
+    transform: translate(-50%, -50%);
+}
+
+.page__5__description{
+    width: 1044px;
+    height: 116px;
+
+    margin-top: 112px;
+
+
+}
+
+.page__5__cards{
+    width: 1049px;
+    height: 375px;
+
+    margin-top: 112px;
+
+    display: flex;
+
+}

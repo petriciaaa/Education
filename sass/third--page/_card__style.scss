@@ -1,0 +1,170 @@
+//Page 3 text style 
+
+.page__3__name{
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+
+    color: #96BB7C;
+}
+
+.page__3__product{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+
+    color: #252B42;
+
+
+}
+
+.page__3__description{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+
+    color: #737373;
+
+    &__5{
+
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+
+    color: #737373;
+    
+
+    }
+}
+
+.page__3__sales{
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+
+    color: #737373;
+
+}
+
+
+.page__3__price{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+
+    color: #BDBDBD;
+
+    &__primary{
+        color: #FFAB71;
+
+    }
+}
+.page__3__lear_more{
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+
+    color: #96BB7C;
+    background-color: white;
+
+    border-radius: 20px;
+    border: 1px solid #96BB7C;
+
+    width: 144.14px;
+    height: 44px;
+
+}
+
+// Main card
+.page__3__main__card{
+    width: 328px;
+    height:  622px;
+
+    background-color: white;
+
+    position: relative;
+}
+
+//Upper title
+.card__img{
+    height: 300px;
+    width: 328px;
+
+}
+.card__button{
+    width: 52px;
+    height: 24px;
+
+    background-color: #E74040;
+    color: #ffff;
+
+    border-radius: 4px;  
+    border: 7px solid #E74040 ;
+
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+
+
+    position: absolute;
+
+    top: 0;
+    left: 0;
+}
+
+
+.card__products{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    
+
+    
+}
+
+.card__products__elemen  + * {
+    padding-left: 10px;
+}   
+
+
+//Lovefr title
+
+.info__wrapper{
+    width: 100%;
+    height: 322px;
+            
+    padding-left: 15px;
+}    
+
+//Padding (BЭМ not inclyde  ))))))))))
+.padding__top__3{
+    padding-top:10px ;
+}
+
+.padding__top__3__20{
+    padding-top:20px ;
+}
+
+
+.info{
+    width: 298px;
+    height: 26px;
+
+    
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+   
+}

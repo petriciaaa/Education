@@ -1,0 +1,84 @@
+.conent__info, .content__card , .content__buttons {
+    padding-left: 65px;
+}
+
+.conent__info{
+    padding:35px ;
+    font-family: 'Montserrat', sans-serif;
+
+    &__join{
+        font-size:16px ;
+        font-weight: bold;
+        color:#96BB7C ;
+    }
+
+    &__slogan{
+        font-size:58px ;
+        font-weight: bold;
+        color:#252B42 ;
+    }
+
+    &__text{
+        font-size:20px ;
+        font-weight: 400;
+        color: #737373;
+
+    }
+}
+
+
+
+.content__card{
+    padding-top: 80px;
+    width: 70%;
+    height: calc(296px+80px) ;
+    
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card{
+    width: 328px;
+    height: 296px;
+    background-color: #FFFFFF;
+    padding-left: 40px;
+    box-shadow: 0px 4px 15px rgba(0, 0,0, 0.35);
+
+}
+.icon{
+    padding-top: 35px;
+    padding-bottom: 20px;
+    width: 72px;
+    
+   
+}
+.line { 
+    width: 50px;
+    height: 2px;
+    
+    padding-top: 20px  ;
+
+   
+    border-bottom: 1px solid #E74040; /* Параметры линии */
+}
+.caption{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+
+    color: #252B42;
+}
+.description{
+    font-size: 14px; 
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif; 
+
+    color: #737373;
+
+    padding-top: 20px  ;
+    padding-bottom: 35px;
+
+}
+
+

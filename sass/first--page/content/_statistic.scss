@@ -1,0 +1,53 @@
+.statistic__wrapper{
+    width: calc(100% - 390px);
+    height: inherit;
+    
+    background-color:#FFFFFF ;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px;
+    
+
+    @media (max-width: 740px) {
+        width: 600px;
+        padding: 30px;
+    
+
+        //display: none;
+    }
+
+
+}
+
+.statistic__branch{
+    width: 238px;
+    height: 104px;
+    
+
+}
+
+.statistic__integer{
+
+
+    font-size: 58px; 
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif; 
+    
+    
+    color: #96BB7C;
+
+    
+}
+
+.statistic__description{
+    font-size: 16px; 
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif; 
+
+    color: #252B42;
+    
+    
+
+}

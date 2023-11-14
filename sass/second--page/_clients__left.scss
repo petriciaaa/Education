@@ -1,0 +1,80 @@
+.clients__left{
+    width: calc(507px + 195px);
+    height: 256px;
+
+    padding-left:195px;
+
+
+}
+
+.clients__line{
+    width: 94px;
+    height: 7px;
+
+    
+    border-bottom: 7px solid #E74040;
+}
+
+.slogan{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+
+
+    color: #252B42;
+
+    &__3{
+        font-size: 40px;
+        font-weight: bold;
+        font-family: 'Montserrat', sans-serif;
+    
+    
+        color: #252B42;
+        
+        padding: 10px 0px;
+
+
+
+
+    }
+}
+
+.description{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+
+    color: #737373;
+
+    &__3{
+        font-size: 14px;
+        font-weight: 400;
+        font-family: 'Montserrat', sans-serif;
+    
+        color: #737373;
+
+
+
+
+    }
+}
+
+.learn__more{
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+
+    color: #96BB7C;
+
+    &__3{
+
+        font-size: 14px;
+        font-weight: bold;
+        font-family: 'Montserrat', sans-serif;
+    
+        color: #96BB7C;
+
+    }
+
+}
+
